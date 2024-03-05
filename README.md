@@ -5,10 +5,9 @@ Our pretrained models can be downloaded from [here](https://pan.baidu.com/s/19Jg
 ## Usage
 ### Train
 ```
-./train.sh
-```
+python train.py --data_source your_data_path --experiment you_experiment_name```
 Attention that you should change the path of datasets.
-### Test
+### infer
 ```
-python main_test_swinir.py --task classical_sr --scale 4 --training_patch_size 48 --model_path your path --folder_lq your low-resolution image path --folder_gt your high-resolution image path
+python infer.py --data_source your_test_data_path --model ckpt_path 
 ```
