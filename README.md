@@ -5,8 +5,10 @@ Our pretrained models can be downloaded from [here](https://pan.baidu.com/s/19Jg
 ## Usage
 ### Train
 ```
-python train.py --data_source your_data_path --experiment you_experiment_name```
-Attention that you should change the path of datasets.
+python train.py --data_source your_data_path --experiment you_experiment_name
+```
+
+
 ### infer
 ```
 python infer.py --data_source your_test_data_path --model ckpt_path 
