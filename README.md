@@ -5,7 +5,7 @@ Our pretrained models can be downloaded from [here](https://pan.baidu.com/s/1POS
 ## Usage
 ### Train
 ```
-python train.py --data_source your_data_path --experiment you_experiment_name
+python train.py --data_source your_data_path --experiment your_experiment_name
 ```
 
 
